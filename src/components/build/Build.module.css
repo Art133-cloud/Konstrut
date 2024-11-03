@@ -1,0 +1,46 @@
+.contentBuild {
+    background: url("../../../public/assets/png/bgBeforeFooter.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    padding: 120px 0 231px 0;
+}
+.parentForBuild h2 {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 120%;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #48555b;
+    width: 350px;
+}
+.parentForBuild {
+    display: flex;
+    flex-direction: column;
+    row-gap: 35px;
+    align-items: center;
+}
+
+@media only screen and (max-width: 385px) {
+    .parentForBuild h2 {
+        font-size: 20px;
+        width: 300px;
+    }
+}
+@media screen and (orientation: landscape) and (max-width: 932px) and (max-height: 430px) {
+    .contentBuild {
+        padding: 110px 0 147px 0;
+    }
+}
+@media screen and (orientation: landscape) and (max-width: 896px) and (max-height: 414px) {
+    .contentBuild {
+        padding: 110px 0 147px 0;
+    }
+}
+@media screen and (orientation: landscape) and (max-width: 667px) and (max-height: 385px) {
+    .contentBuild {
+        padding: 100px 0 137px 0;
+    }
+}

@@ -1,0 +1,28 @@
+.cardItem {
+    width: 140px;
+    background-size: cover;
+    padding: 15px 0 151px 14px
+}
+.cardItem h3 {
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 121%;
+    letter-spacing: 0.01em;
+    color: #fff;
+}
+@media only screen and (max-width: 527px) {
+    .cardItem {
+        width: 120px;
+    }
+}
+@media screen and (orientation: landscape) and (max-width: 740px) and (max-height: 360px) {
+    .cardItem {
+        padding: 15px 0 120px 14px;
+    }
+}
+@media screen and (orientation: landscape) and (max-width: 667px) and (max-height: 385px) {
+    .cardItem {
+        padding: 15px 0 120px 14px;
+    }
+}

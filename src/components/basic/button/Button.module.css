@@ -1,0 +1,17 @@
+.basicButton {
+    width: 150px;
+    background: #00a4e5;
+    padding: 11px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}

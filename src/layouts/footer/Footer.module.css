@@ -1,0 +1,110 @@
+.footer {
+    background-color: #141a20;
+    width: 100%;
+    padding: 42px 0 50px 0;
+}
+.contentFooter h4 {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 11px;
+    letter-spacing: 0.08em;
+    color: #fff;
+}
+.firstLogoContent p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 173%;
+    letter-spacing: 0.08em;
+    color: #fff;
+}
+.firstLogoContent {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 19px;
+}
+.linksFooter .footerItem {
+    display: flex;
+    flex-direction: column;
+    row-gap: 13px;
+}
+.linksFooter .footerItem a {
+    text-decoration: none;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 11px;
+    letter-spacing: 0.08em;
+    color: #fff;
+}
+.menuFooter {
+    display: flex;
+    gap: 34px;    
+    padding-top: 10px;
+}
+.contactFooter p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 145%;
+    letter-spacing: 0.08em;
+    color: #fff;
+}
+.contactFooter {
+    width: 141px;
+}
+.contentFooter {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.contactFooter h4 {
+    padding-bottom: 10px;
+}
+.logosFooter {
+    display: flex;
+}
+.logosFooter a {
+    width: 13px;
+    height: 13px;
+}
+.contactsFooterTexts {
+    display: flex;
+    flex-direction: column;
+    row-gap: 13px;
+}
+
+@media only screen and (max-width: 1034px) {
+    .contentFooter {
+        grid-template-columns: auto auto auto;
+        row-gap: 15px;
+    }
+}
+@media only screen and (max-width: 821px) {
+    .contentFooter {
+        grid-template-columns: auto auto;
+        row-gap: 35px;
+    }
+    .firstLogoContent {
+        width: 200px;
+    }
+}
+@media only screen and (max-width: 548px) {
+    .firstLogoContent {
+        width: 150px;
+    }
+    .firstLogoContent p {
+        font-size: 9px;
+    }
+}
+@media only screen and (max-width: 474px) {
+    .contentFooter {
+        grid-template-columns: auto;
+        justify-content: center;
+    }
+    .menuFooter {
+        flex-direction: column;
+    }
+    .firstLogoContent {
+        width: 250px;
+    }
+}

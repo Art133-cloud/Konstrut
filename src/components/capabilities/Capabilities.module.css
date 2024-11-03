@@ -1,0 +1,97 @@
+.titleCapabilities h2 {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0.13em;
+    color: #48555b;
+}
+.textWithButton p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 173%;
+    letter-spacing: 0.02em;
+    color: #48555b;
+    width: 405px;
+}
+.textWithButton {
+    display: flex;
+    align-items: center;
+    gap: 31.6px;
+}
+.topCapabilities {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.bottomCapabilities {
+    display: flex;
+    gap: 28px;
+    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 115px;
+}
+
+@media only screen and (max-width: 899px) {
+    .topCapabilities {
+        flex-direction: column;
+        row-gap: 15px;
+    }
+    .titleCapabilities {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 15px;
+    }
+    .textWithButton {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 15px;
+    }
+}
+@media only screen and (max-width: 798px) {
+    .bottomCapabilities {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+}
+@media only screen and (max-width: 664px) {
+    .bottomCapabilities {
+        display: grid;
+        grid-template-columns: auto;
+    }
+}
+@media only screen and (max-width: 474px) {
+    .textWithButton p {
+        width: 90%;
+    }
+}
+@media screen and (orientation: landscape) and (max-width: 932px) and (max-height: 430px) {
+    .bottomCapabilities {
+        padding-top: 20px;
+    }
+}
+@media screen and (orientation: landscape) and (max-width: 896px) and (max-height: 414px) {
+    .bottomCapabilities {
+        padding-top: 20px;
+    }
+    .topCapabilities {
+        row-gap: 5px;
+    }
+}
+@media screen and (orientation: landscape) and (max-width: 844px) and (max-height: 390px) {
+    .titleCapabilities h2 {
+        font-size: 15px;
+    }
+    .bottomCapabilities {
+        padding-top: 15px;
+    }
+    .topCapabilities {
+        row-gap: 5px;
+    }
+}
+@media screen and (orientation: landscape) and (max-width: 667px) and (max-height: 385px) {
+    .bottomCapabilities {
+        padding-top: 20px;
+    }
+}

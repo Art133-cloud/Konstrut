@@ -1,0 +1,13 @@
+.contentLastSect h3 {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 11px;
+    letter-spacing: 0.08em;
+    color: #fff;
+    text-align: center;
+}
+.contentLastSect {
+    background: #171819;
+    width: 100%;
+    padding: 22px 0;
+}
